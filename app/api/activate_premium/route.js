@@ -86,13 +86,3 @@ export default async function DashboardPage() {
 
   return <p>Benvenuto {session.user.name} (ID: {session.user.id})</p>;
 }
-
-
-///////////////////////////////////////
-// 5. .env - nella root del progetto
-///////////////////////////////////////
-
-DISCORD_CLIENT_ID=tuo_client_id
-DISCORD_CLIENT_SECRET=tuo_client_secret
-NEXTAUTH_SECRET=una_stringa_random_criptata
-NEXTAUTH_URL=http://localhost:3000
